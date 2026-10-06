@@ -1,0 +1,6 @@
+# Real Redis to swap in for the in-JDK map (not started by the verify command)
+services:
+  redis:
+    image: redis:7.4.1-alpine
+    ports:
+      - "6379:6379"
